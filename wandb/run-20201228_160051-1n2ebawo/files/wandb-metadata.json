@@ -1,0 +1,40 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.8.5",
+    "heartbeatAt": "2020-12-28T10:30:53.533407",
+    "startedAt": "2020-12-28T10:30:51.155735",
+    "docker": null,
+    "gpu": "GeForce GTX 1060 6GB",
+    "gpu_count": 1,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--img",
+        "416",
+        "--batch",
+        "5",
+        "--epochs",
+        "150",
+        "--data",
+        "data.yaml",
+        "--cfg",
+        "yolov5s.yaml",
+        "--weights",
+        "yolov5s.pt",
+        "--name",
+        "training-v",
+        "--adam"
+    ],
+    "state": "running",
+    "codePath": "train.py",
+    "program": "train.py",
+    "git": {
+        "remote": "https://github.com/itsezsid/covid-mask-detector.git",
+        "commit": "8e366dd309642ce52719f235d4c3e9af2aadb211"
+    },
+    "email": "itsezsid@outlook.in",
+    "root": "D:/Code/covid-mask-detector",
+    "host": "itsezsid",
+    "username": "itsez",
+    "executable": "C:\\Users\\itsez\\anaconda3\\python.exe"
+}

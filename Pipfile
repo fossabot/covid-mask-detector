@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = ">=1.7.1"
+tqdm = "*"
+numpy = "==1.19.3"
+matplotlib = "*"
+opencv-python = "*"
+scipy = "*"
+tensorboard = "*"
+pyyaml = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
